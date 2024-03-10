@@ -1,0 +1,26 @@
+<h1>Rick And Morty</h1>
+<!-- <div class="container" *ngFor="let character of charactersList">
+    <mat-card class="card">
+        <div class="image">
+            <img mat-card-image src="{{character.image}}">
+            <mat-card-title>zeby</mat-card-title>          
+        </div>
+    </mat-card>      
+</div> -->
+<div class="grid-layout">
+<mat-card class="card" *ngFor="let character of charactersList">
+<div class="card-content">
+    <div class="container-image">
+    <img  src="{{character.image}}" class="image-left">
+    </div>
+    <div class="content-right">
+        <h2>{{character.name}}</h2>
+        <p>{{character.status}} - {{character.species}}</p>
+        <p>Origin:</p>
+        <h2>{{character.origin.name}}</h2>
+        <p>Last Known Location</p>
+        <h2>{{character.location.name}}</h2>
+    </div>
+</div>
+</mat-card>
+</div>

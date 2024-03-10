@@ -1,0 +1,52 @@
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card {
+    background-color: rgb(60, 62, 68);
+    width: 600px;
+    height: 220px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-content {
+    display: flex;
+}
+
+.image-left{
+    border-radius: 10px;
+    flex: 0, 0, auto;
+    margin-right: 20px;
+}
+
+.content-right{
+    flex: 1;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: Laila;
+    font-weight: 500;
+    color: rgb(22, 188, 229);
+}
+
+h2{
+    text-align: left;
+    font-size: 18px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: rgb(224, 224, 224);
+}
+
+p{
+    text-align: left;
+    font-size: 16px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: rgb(169, 166, 166);
+}
+
